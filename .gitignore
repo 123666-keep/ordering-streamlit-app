@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.log
+.env
+.streamlit/secrets.toml
+
+# 隧道工具与临时产物
+cloudflared.exe
+deploy_qr.png
+
+# 数据库由程序首次运行自动生成，不入库
+data/*.db
